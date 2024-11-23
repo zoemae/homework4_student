@@ -34,5 +34,6 @@ Also, make sure that your git commands are running without errors before you ref
 Then, you can see if you made an error with your git add, commit, or push commands.
 
 
-### _your name and UW net ID_
-Write your paragraph on the importance of the required plot elements here.
+### Zoe Friedland, 2068743
+Linear regression is a useful tool for finding the average rate of change of data, as long as the data fits a linear trend. However, caution must be used to create a line of best fit that isn't too warped by outliers in the data but also doesn't fit the data *artifically* well, as its job is to demonstrate the true trend in the data, not the one that the data analyst is hoping is there. Interpolation is useful for plotting an estimate of mising values, and SciPy has multiple interpolation methods, including linear, cubic, quadratic, and others. Care should also be used to select the appripriate method, and one must be aware of the math behind the interpolation method to understand what it is actually doing to the data, to best interpret the interpolation. A rolling mean can help smooth out erratic data by creating a continuous average. However, selecting a useful periodicity is essential for creating a useful rolling mean. All of these data analysis tools depend on somewhat subjective decisions by the analyst, but those decisions should be beased on best practice and knowledge of statistics, as ultimately, the point of data
+is to communicate it with a community.
